@@ -114,24 +114,18 @@ div.projectsLine {
 }
 
 .contacts {
-    padding: 136px 35px 136px 70px;
-}
-
-.contacts h2{
-    margin-bottom: 70px;
+    padding: 136px 70px 136px 70px;
 }
 
 .contactsLine {
-    display: flex;
-    justify-content: space-around;
-}
-
-.contactsLine div {
+    margin-top: 70px;
     text-align: center;
 }
 
-.contactsLine div > * {
-    margin-bottom: 15%;
+.contactsLine td {
+    width: 50vw;
+    table-layout: fixed;
+    vertical-align: top;
 }
 
 .contactsLine h3 {
