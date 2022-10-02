@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+header {
+    display: flex;
+    padding: 15px 70px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1ABC9C;
+}
+
+h2 {
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 42px;
+    margin-bottom: 23px;
+}
+
+nav a {
+    font-size: 25px;
+    line-height: 30px;
+    color: black;
+    margin-right: 20px;
+}
+
+.logo {
+    width: 101px;
+    height: 29px;
+}
+
+.social a {
+    margin-right: 20px;
+}
+
+.last_link {
+    margin-right: 0;
+}
+
+.about {
+    display: flex;
+}
+
+.about_left, .about_right {
+    width: 50%;
+}
+
+.about_right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 70px 0 62px;
+}
+
+.about_right p {
+    font-size: 20px;
+    line-height: 24px;
+    text-align: justify;
+}
+
+.about-left img {
+    width: 100%;
+}
+
+.projects {
+    background-color: #DCFFEB;
+    padding: 136px 35px 136px 70px;
+}
+
+.projects h2 {  
+    margin-bottom: 70px;
+}
+
+div.projectsLine {
+    display: flex;
+}
+
+.projectsLine h3 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.projectsLine p {
+    font-family: 'Open Sans', sans-serif;
+    text-align: left;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.projectsLine div {
+    display: block;
+    transition: 1s;
+}
+
+.projectsLine div:hover {
+    background-color: #DCFFEB;
+    margin: 30px;
+    transform: scale(1.1);
+}
+
+.projectsLine rect {
+    fill: #F7654A;
+}
+
+.contacts {
+    padding: 136px 35px 136px 70px;
+}
+
+.contacts h2{
+    margin-bottom: 70px;
+}
+
+.contactsLine {
+    display: flex;
+    justify-content: space-around;
+}
+
+.contactsLine div {
+    text-align: center;
+}
+
+.contactsLine div > * {
+    margin-bottom: 15%;
+}
+
+.contactsLine h3 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.greyColor {
+    color: #999;
+}
+
+.redColor {
+    color: #F7654A;
+}
