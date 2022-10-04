@@ -100,6 +100,7 @@ div.projectsLine {
 
 .projectsLine div {
     display: block;
+    padding-right: 2%;
     transition: 1s;
 }
 
